@@ -1,6 +1,6 @@
 import './theme.css';
 
-// Gözlemci: Her DOM değişiminde sidebar'ı tekrar transparan yap
+// Observer: Make the sidebar transparent again on every DOM change
 const observer = new MutationObserver(() => {
   const sidebar = document.querySelector('.rcp-fe-viewport-sidebar');
   if (sidebar) {
