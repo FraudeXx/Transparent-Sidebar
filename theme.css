@@ -1,0 +1,5 @@
+/* Sadece stil çatışmalarını temizlemek için */
+.rcp-fe-viewport-sidebar {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
